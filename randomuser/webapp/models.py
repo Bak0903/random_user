@@ -13,6 +13,7 @@ class User(models.Model):
     user_id = models.OneToOneField('Id', on_delete=models.CASCADE)
     picture = models.OneToOneField('Picture', on_delete=models.CASCADE)
     nat = models.CharField(max_length=3)
+    login = models.ForeignKey('Login', on_delete=models.CASCADE)
 
 
 class Name(models.Model):
