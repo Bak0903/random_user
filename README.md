@@ -45,7 +45,11 @@ python3 manage.py createsuperuser
 В папке с manage.py запустите проект:
 python3 manage.py runserver
 
+
 Доступные ссылки:
+
 http://localhost:8000/user
+
 http://localhost:8000/user_short
+
 http://localhost:8000/hash_numbers
