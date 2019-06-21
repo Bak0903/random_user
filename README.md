@@ -1,7 +1,6 @@
 Как запустить проект.
 
-В Windows:
-pip install virtualenv
+В Windows:pip install virtualenv
 
 Linux и Mac OS:
 sudo pip install virtualenv
