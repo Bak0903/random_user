@@ -26,7 +26,15 @@ Linux и Mac OS:
 pip install djangorestframework
 
 Склонируйте проект:
-git clone https://github.com/Bak0903/random_user.git
+git clone https://github.com/Bak0903/random_user.gitpip 
+
+Установить зависимости из requirements.txt
+
+Windows:
+install -r requirements.txt
+
+Linux и Mac OS:
+pip install -r requirements.txt
 
 После установки перейдите в папку с файлом manage.py и проведите миграции:
 python3 manage.py migrate
@@ -34,8 +42,10 @@ python3 manage.py migrate
 Создайте супер юзера:
 python3 manage.py createsuperuser
 
-pip install -r requirements.txt
 В папке с manage.py запустите проект:
-
-Запустите сервер
 python3 manage.py runserver
+
+Доступные ссылки:
+http://localhost:8000/user
+http://localhost:8000/user_short
+http://localhost:8000/hash_numbers
